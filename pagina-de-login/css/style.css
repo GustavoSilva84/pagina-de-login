@@ -1,0 +1,59 @@
+body {
+
+    background: rgb(9, 9, 9);
+    font-size: 16px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.padding_40px {
+
+    padding: 40px;
+
+}
+
+.display_block {
+
+    display: block;
+
+}
+
+#container_login_e_informacoes {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#fundo_login_e_informacoes {
+
+    display: flex;
+    margin: 40px 0 0 0;
+
+}
+
+    
+@media (max-width: 1254px) {
+
+    body {
+
+        font-size: 12px;
+
+    }
+
+    #fundo_login_e_informacoes {
+
+        display: block;
+        margin: 0;
+    
+    }
+
+}
+
+@media (max-width: 552px) {
+
+
+    
+}
