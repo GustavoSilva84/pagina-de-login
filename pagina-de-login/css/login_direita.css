@@ -61,17 +61,3 @@
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.179);
 
 }
-
-
-
-
-@media (max-width: 1254px) {
-
-    #fundo_login {
-
-        width: 80%;
-        border-radius: 0 0px 0px 0;
-    
-    }
-
-}
