@@ -7,7 +7,7 @@
 #fundo_informacoes {
 
     background: rgb(122, 0, 192);
-    background: url('../img/WhatsApp\ Image\ 2020-12-14\ at\ 4.58.08\ PM.jpeg');
+    background: url('../img/fundo.png');
     width: 430px;
     height: 490px;
 
@@ -60,7 +60,7 @@
 #button_facebook > span > svg {
 
     width: 13px;
-    color:   rgb(122, 0, 192);
+    color:rgb(122, 0, 192);
 
 }
 
