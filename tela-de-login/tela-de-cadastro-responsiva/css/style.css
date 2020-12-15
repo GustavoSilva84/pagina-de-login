@@ -1,0 +1,48 @@
+body {
+
+    background: rgb(0, 0, 0);
+    font-size: 16px;
+    margin: 0;
+
+}
+
+.display_block {
+
+    display: block;
+
+}
+
+#login_container {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#login_fundo {
+
+    display: flex;
+
+}
+
+@media (max-width: 1024px) {
+
+    #login_container {
+
+        height: auto;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    #login_fundo {
+
+        display: block;
+        width: 100%;
+        
+    }
+
+}
