@@ -1,6 +1,6 @@
 #container_login_padrao {
     
-    height: 480px;
+    height: 550px;
     width: 500px;
     background: rgb(245, 245, 245);
     border-radius: 0 30px 30px 0;
@@ -29,7 +29,7 @@
 
 #fundo_inputs {
 
-    margin-top: 70px;
+    margin: 20px 0 15px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,11 +42,26 @@
     background: none;
     outline: none;
     border-bottom: 1px solid black;
-    margin-bottom: 40px;
+    margin: 30px 0 30px 0;
     width: 300px;
+    transition: 300ms;
+    padding: 5px;
 
 }
 
+.inputs_login_padrao:hover {
+
+    border: none;
+    background: rgba(128, 0, 255, 0.33);
+    outline: none;
+    border-left: 3px solid rgb(128, 0, 255);
+    border-bottom: 1px solid black;
+    margin: 30px 0 30px 0;
+    width: 300px;
+   
+
+}
+ 
 #fundo_login_padrao > #fundo_button {
 
     display: flex;
@@ -55,6 +70,16 @@
 }
 
 #fundo_login_padrao > #fundo_button > #button_enviar {
+
+    background: rgba(142, 0, 189, 0.815);
+    border: none;
+    color: rgb(245, 245, 245);
+    padding: 10px 60px;
+    border-radius: 30px;
+
+}
+
+#fundo_login_padrao > #fundo_button > #button_enviar:hover {
 
     background: rgb(142, 0, 189);
     border: none;

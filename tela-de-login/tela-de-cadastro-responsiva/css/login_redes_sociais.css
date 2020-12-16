@@ -2,7 +2,7 @@
 
     background: right center url('../img/fundo.png') no-repeat;
     width: 500px;
-    height: 480px;
+    height: 550px;
 
 }
 
@@ -25,7 +25,7 @@
 
 #fundo_buttons_informacoes {
 
-    margin-top: 30vh;
+    margin-top: 300px;
     display: flex;
     justify-content: center;
 
@@ -41,6 +41,14 @@
 
 }
 
+
+#button_facebook:hover {
+
+    background: rgb(255, 255, 255);
+  
+}
+
+
 #button_facebook span svg {
 
     width: 13px;
@@ -55,6 +63,12 @@
     padding: 7px 60px;
     border-radius: 30px;
 
+}
+
+#button_google:hover {
+
+    background: rgb(255, 255, 255);
+   
 }
 
 

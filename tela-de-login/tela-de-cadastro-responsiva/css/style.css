@@ -21,6 +21,12 @@ body {
 
 }
 
+button {
+
+    outline: none;
+
+}
+
 #login_fundo {
 
     display: flex;
